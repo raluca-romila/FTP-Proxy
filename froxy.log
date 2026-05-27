@@ -1,0 +1,54 @@
+[2026-01-15 20:30:11][CONFIG] Loaded. Port: 2121, TTL: 300s, Policies: 0
+[2026-01-15 20:30:11]=== Froxy Server STARTED on port 2121 ===
+[2026-01-15 20:30:20][NEW SESSION] localhost (127.0.0.1)
+[2026-01-15 20:30:25][NEW SESSION] localhost (127.0.0.1)
+[2026-01-15 20:30:38][CMD] localhost: USER anonymous@ftp.gnu.org
+[2026-01-15 20:30:55][CMD] localhost: USER anonymous@ftp.gnu.org
+[2026-01-15 20:31:08][CMD] localhost: PASS test@test.com
+[2026-01-15 20:31:17][CMD] localhost: PASS test@test.com
+[2026-01-15 20:31:21][CMD] localhost: PASV
+[2026-01-15 20:31:21][PASV-NOISE] Forwarding: 230 Already logged in.
+
+[2026-01-15 20:31:22][CMD] localhost: LIST
+[2026-01-15 20:31:40][CMD] localhost: PASV
+[2026-01-15 20:31:41][CMD] localhost: RETR welcome.msg
+[2026-01-15 20:31:41][CACHE MISS] Descarc si salvez 'welcome.msg' ...
+[2026-01-15 20:31:41][CACHE SAVED] Fisierul 'welcome.msg' salvat cu succes.
+[2026-01-15 20:31:58][CMD] localhost: PASV
+[2026-01-15 20:31:59][CMD] localhost: RETR welcome.msg
+[2026-01-15 20:31:59][CACHE HIT] Servesc 'welcome.msg' din cache.
+[2026-01-15 20:32:09][CMD] localhost: PASV
+[2026-01-15 20:32:09][PASV-NOISE] Forwarding: 230 Already logged in.
+
+[2026-01-15 20:32:10][CMD] localhost: LIST
+[2026-01-15 20:32:11][STATS] Requests: 1 | Hits: 1 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:32:18][CMD] localhost: PASV
+[2026-01-15 20:32:18][CMD] localhost: RETR robots.txt
+[2026-01-15 20:32:19][CACHE MISS] Descarc si salvez 'robots.txt' ...
+[2026-01-15 20:32:19][CACHE SAVED] Fisierul 'robots.txt' salvat cu succes.
+[2026-01-15 20:32:26][STATS] Requests: 1 | Hits: 1 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:32:27][CMD] localhost: PASV
+[2026-01-15 20:32:28][CMD] localhost: RETR robots.txt
+[2026-01-15 20:32:28][CACHE HIT] Servesc 'robots.txt' din cache.
+[2026-01-15 20:32:41][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:32:56][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:32:58][CMD] localhost: quit
+[2026-01-15 20:33:02][CMD] localhost: RELOAD_CONFIG
+[2026-01-15 20:33:02][CONFIG] Loaded. Port: 2121, TTL: 300s, Policies: 1
+[2026-01-15 20:33:11][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:33:16][CMD] localhost: USER anonymous@ftp.gnu.org
+[2026-01-15 20:33:26][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:33:41][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:33:56][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:33:58][SESSION END] Client deconectat.
+[2026-01-15 20:34:11][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:34:26][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:34:41][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:34:56][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:35:11][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:35:26][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:35:41][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:35:57][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:36:12][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
+[2026-01-15 20:36:25][SESSION END] Client deconectat.
+[2026-01-15 20:36:27][STATS] Requests: 2 | Hits: 2 (100.0%) | Traffic: 0.01 MB | Saved: 0.00 MB
