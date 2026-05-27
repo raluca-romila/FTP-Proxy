@@ -1,0 +1,8 @@
+server
+client
+*.o
+froxy.log
+downloads/*
+cache/*
+!cache/.gitkeep
+!downloads/.gitkeep
