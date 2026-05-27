@@ -352,7 +352,10 @@ void *client_handler(void *arg){
         char log_buf[BUFFER_SIZE];
         strcpy(log_buf, buffer);
         log_buf[strcspn(log_buf, "\r\n")] = 0;
-        safe_log("[CMD] %s: %s", session->client_hostname, log_buf);
+        if(strncmp(log_buf, "PASS ", 5) == 0)
+            safe_log("[CMD] %s: PASS ***", session->client_hostname);
+        else
+            safe_log("[CMD] %s: %s", session->client_hostname, log_buf);
 
         if(strncmp(buffer, "RELOAD_CONFIG", 13) == 0){
             load_config();
